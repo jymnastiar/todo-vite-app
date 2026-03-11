@@ -1,0 +1,76 @@
+export const iconEmptyAll = (
+  <svg width="50" height="50" viewBox="0 0 36 36" fill="none">
+    <rect
+      x="9"
+      y="8"
+      width="18"
+      height="22"
+      rx="2"
+      stroke="url(#g1)"
+      strokeWidth="1.8"
+    />
+    <rect
+      x="14"
+      y="6"
+      width="8"
+      height="4"
+      rx="2"
+      stroke="url(#g1)"
+      strokeWidth="1.8"
+    />
+    <line
+      x1="13"
+      y1="16"
+      x2="23"
+      y2="16"
+      stroke="url(#g2)"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeOpacity="0.3"
+    />
+    <line
+      x1="13"
+      y1="20"
+      x2="23"
+      y2="20"
+      stroke="url(#g2)"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeOpacity="0.2"
+    />
+    <line
+      x1="13"
+      y1="24"
+      x2="19"
+      y2="24"
+      stroke="url(#g2)"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeOpacity="0.15"
+    />
+    <defs>
+      <linearGradient
+        id="g1"
+        x1="0"
+        y1="0"
+        x2="36"
+        y2="36"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="hsl(192,100%,67%)" />
+        <stop offset="1" stopColor="hsl(280,87%,65%)" />
+      </linearGradient>
+      <linearGradient
+        id="g2"
+        x1="0"
+        y1="0"
+        x2="36"
+        y2="0"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="hsl(192,100%,67%)" />
+        <stop offset="1" stopColor="hsl(280,87%,65%)" />
+      </linearGradient>
+    </defs>
+  </svg>
+);

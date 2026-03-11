@@ -1,0 +1,77 @@
+export const iconNoCompleted = (
+  <svg width="50" height="50" viewBox="0 0 36 36" fill="none">
+    <circle cx="18" cy="18" r="9" stroke="url(#g4)" strokeWidth="1.8" />
+    <line
+      x1="18"
+      y1="18"
+      x2="18"
+      y2="13"
+      stroke="url(#g4)"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+    />
+    <line
+      x1="18"
+      y1="18"
+      x2="22"
+      y2="20"
+      stroke="url(#g4)"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+    />
+    <circle cx="18" cy="18" r="1" fill="url(#g4)" />
+    <line
+      x1="18"
+      y1="10"
+      x2="18"
+      y2="11.5"
+      stroke="url(#g4)"
+      strokeWidth="1.4"
+      strokeLinecap="round"
+      strokeOpacity="0.5"
+    />
+    <line
+      x1="18"
+      y1="24.5"
+      x2="18"
+      y2="26"
+      stroke="url(#g4)"
+      strokeWidth="1.4"
+      strokeLinecap="round"
+      strokeOpacity="0.5"
+    />
+    <line
+      x1="10"
+      y1="18"
+      x2="11.5"
+      y2="18"
+      stroke="url(#g4)"
+      strokeWidth="1.4"
+      strokeLinecap="round"
+      strokeOpacity="0.5"
+    />
+    <line
+      x1="24.5"
+      y1="18"
+      x2="26"
+      y2="18"
+      stroke="url(#g4)"
+      strokeWidth="1.4"
+      strokeLinecap="round"
+      strokeOpacity="0.5"
+    />
+    <defs>
+      <linearGradient
+        id="g4"
+        x1="9"
+        y1="9"
+        x2="27"
+        y2="27"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="hsl(192,100%,67%)" />
+        <stop offset="1" stopColor="hsl(280,87%,65%)" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
