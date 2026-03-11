@@ -9,6 +9,8 @@ export default function App() {
     isEmptyFilter,
     emptyMessage,
     emptyIcon,
+    filter,
+    itemActive,
     toogleCheck,
     handleAddItem,
     handleDeleteItem,
@@ -26,13 +28,12 @@ export default function App() {
                   sm:bg-[url('/src/assets/images/bg-desktop-light.jpg')] sm:dark:bg-[url('/src/assets/images/bg-desktop-dark.jpg')]
                   bg-no-repeat bg-contain min-h-screen"
       >
-        <div className="max-w-135.5 min-w-70 sm:min-w-110">
+        <div className="max-w-135.5 min-w-70 sm:w-135.5">
           <Header theme={theme} setTheme={setTheme} />
           <Form onAddItem={handleAddItem} />
           <Container
             items={filteredItems}
             toogleCheck={toogleCheck}
-            lengthItems={items.length}
             onDeleteItem={handleDeleteItem}
             onClearComplete={handleClearComplete}
             All={handleFilterAll}
@@ -41,12 +42,15 @@ export default function App() {
             isEmptyFilter={isEmptyFilter}
             emptyMessage={emptyMessage}
             emptyIcon={emptyIcon}
+            filter={filter}
+            itemActive={itemActive}
           />
           <div className="sm:hidden">
             <Filter
               All={handleFilterAll}
               Active={handleFilterActive}
               Complete={handleFilterComplete}
+              filter={filter}
             />
           </div>
           <Footer />

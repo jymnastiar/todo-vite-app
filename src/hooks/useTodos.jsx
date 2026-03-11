@@ -52,6 +52,8 @@ export default function useTodos() {
     return true;
   });
 
+  const itemActive = items.filter((item) => !item.checked).length;
+
   const isEmptyFilter = filteredItems.length === 0;
 
   let emptyMessage = "No tasks yet";
@@ -73,6 +75,8 @@ export default function useTodos() {
     isEmptyFilter,
     emptyMessage,
     emptyIcon,
+    filter,
+    itemActive,
     toogleCheck,
     handleAddItem,
     handleDeleteItem,
